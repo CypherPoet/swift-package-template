@@ -42,4 +42,4 @@ Then simply `import MyLibrary` wherever you’d like to use it.
 
 ## License
 
-MyLibrary is available under the MIT license. See the LICENSE file for more info.
+MyLibrary is available under the MIT license. See the [LICENSE file](./LICENSE) for more info.
