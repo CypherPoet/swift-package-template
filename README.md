@@ -19,6 +19,28 @@ _[[ A brief synopsis of this library ]]_.
 [[ Optionally, a longer description of this package. ]]
 
 
+[[ Header Screenshot ]]
+![](/Assets/Screenshots/header.png)
+
+
+
+## Features
+
+- [x] Feature 1
+- [x] Feature 2
+- [x] Feature 3
+- [x] Feature 4
+- [x] Feature 5
+
+
+
+## Requirements
+
+- iOS 13.0+
+- tvOS 13.0+
+- Xcode 11.3+ (for developing)
+
+
 
 ## Installation
 
@@ -37,7 +59,17 @@ let package = Package(
 Then simply `import MyLibrary` wherever you’d like to use it.
 
 
+
 ## Usage
+
+
+
+
+## Contributing
+
+Contributions to `MyLibrary` are most welcome. Check out some of the [issue templates](./ISSUE_TEMPLATE/) for more info.
+
+
 
 
 ## License
