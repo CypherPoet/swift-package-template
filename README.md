@@ -3,7 +3,9 @@
 <p>
     <img src="https://img.shields.io/badge/Swift-5.1-F06C33.svg" />
     <img src="https://img.shields.io/badge/iOS-13.0+-865EFC.svg" />
-    <img src="https://img.shields.io/badge/macOS-10.15+-E65EFC.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-13.0+-F65EFC.svg" />
+    <img src="https://img.shields.io/badge/macOS-10.15+-472C9C.svg" />
+    <img src="https://img.shields.io/badge/tvOS-13.0+-41465B.svg" />
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     <a href="https://github.com/apple/swift-package-manager">
       <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" />
@@ -38,6 +40,7 @@ _[[ A brief synopsis of this library ]]_.
 
 - iOS 13.0+
 - iPadOS 13.0+
+- macOS 10.15+
 - tvOS 13.0+
 - Xcode 11.3+ (for developing)
 
