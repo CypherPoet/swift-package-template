@@ -59,7 +59,7 @@ _[[ A brief synopsis of this library ]]_.
 let package = Package(
     //...
     dependencies: [
-        .package(url: "https://github.com/CypherPoet/MyLibrary", .branch("master")),
+        .package(url: "https://github.com/CypherPoet/MyLibrary", "0.1.0"),
     ],
     //...
 )
