@@ -53,7 +53,14 @@ _[[ A brief synopsis of this library ]]_.
 
 
 
+
 ## Installation
+
+### Xcode Projects
+
+Using Xcode, select `File` -> `Swift Packages` -> `Add Package Dependency` and enter https://github.com/CypherPoet/MyLibrary.
+
+### Swift Package Manager
 
 `MyLibrary` can be used through the Swift Package Manager. You can add it as a dependency in your `Package.swift` file:
 
