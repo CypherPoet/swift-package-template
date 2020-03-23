@@ -68,7 +68,7 @@ Using Xcode, select `File` -> `Swift Packages` -> `Add Package Dependency` and e
 let package = Package(
     //...
     dependencies: [
-        .package(url: "https://github.com/CypherPoet/MyLibrary", "0.1.0"),
+        .package(url: "https://github.com/CypherPoet/MyLibrary", from: "0.1.0"),
     ],
     //...
 )
