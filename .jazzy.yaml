@@ -5,5 +5,5 @@ github_url: https://github.com/CypherPoet/MyLibrary
 swift_build_tool: spm
 clean: true
 output: ./Documentation
-swift_version: 5.1.3
+swift_version: 5.3
 min_acl: internal

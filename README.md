@@ -1,12 +1,12 @@
 # MyLibrary
 
 <p>
-    <img src="https://img.shields.io/badge/Swift-5.1-F06C33.svg" />
-    <img src="https://img.shields.io/badge/iOS-13.0+-865EFC.svg" />
-    <img src="https://img.shields.io/badge/iPadOS-13.0+-F65EFC.svg" />
-    <img src="https://img.shields.io/badge/macOS-10.15+-179AC8.svg" />
-    <img src="https://img.shields.io/badge/tvOS-13.0+-41465B.svg" />
-    <img src="https://img.shields.io/badge/watchOS-6.0+-1FD67A.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.3-F06C33.svg" />
+    <img src="https://img.shields.io/badge/iOS-14.0+-865EFC.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-14.0+-F65EFC.svg" />
+    <img src="https://img.shields.io/badge/macOS-11.0+-179AC8.svg" />
+    <img src="https://img.shields.io/badge/tvOS-14.0+-41465B.svg" />
+    <img src="https://img.shields.io/badge/watchOS-7.0+-1FD67A.svg" />
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     <a href="https://github.com/apple/swift-package-manager">
       <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" />
@@ -44,12 +44,12 @@ _[[ A brief synopsis of this library ]]_.
 
 ## Requirements
 
-- iOS 13.0+
-- iPadOS 13.0+
-- macOS 10.15+
-- tvOS 13.0+
-- watchOS 6.0+
-- Xcode 11.4+ (for developing)
+- iOS 14.0+
+- iPadOS 14.0+
+- macOS 11.0+
+- tvOS 14.0+
+- watchOS 7.0+
+- Xcode 12.0+ (for developing)
 
 
 
