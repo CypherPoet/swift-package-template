@@ -28,7 +28,7 @@ _[[ A brief synopsis of this library ]]_.
 
 
 [[ Header Screenshot ]]
-![](/Assets/Screenshots/header.png)
+![](./Resources/Screenshots/header.png)
 
 
 
