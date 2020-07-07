@@ -1,17 +1,14 @@
 opt_in_rules:
-  - force_unwrapping
   - empty_count
   - contains_over_first_not_nil
   - fatal_error_message
   - first_where
   - number_separator
   - operator_usage_whitespace
-  - trailing_closure
   - toggle_bool
   - convenience_type
   - empty_string
   - fallthrough
-  - function_default_parameter_at_end
   - legacy_random
   - multiline_function_chains
   - multiline_parameters
@@ -22,29 +19,51 @@ opt_in_rules:
   - sorted_first_last
   - strict_fileprivate
   - syntactic_sugar
-  - unneeded_parentheses_in_closure_argument
   - modifier_order
   - yoda_condition
 
 
-disabled_rules: # rule identifiers to exclude from running
-- vertical_whitespace
-- trailing_whitespace
+disabled_rules:
+- convenience_type
+- multiple_closures_with_trailing_closure
+- trailing_comma
+- type_name
 
-included: # paths to include during linting. `--path` is ignored if present.
+
+# paths to include during linting. `--path` is ignored if present.
+included:
 - Sources
+- Tests
 
-excluded: # paths to ignore during linting. Takes precedence over `included`.
-  - Pods
-  - Carthage
+
+# paths to ignore during linting. Takes precedence over `included`.
+excluded:
+
+
+reporter: "xcode"
+
+
+
+####
+# Individual Rule Configuration (See: https://realm.github.io/SwiftLint/rule-directory.html)
+####
+
+vertical_whitespace:
+  max_empty_lines: 3
 
 function_parameter_count:
-  warning: 4
-  error: 5
+  warning: 5
+  error: 7
+
+function_body_length:
+  warning: 50
+  error: 100
 
 line_length:
   ignores_function_declarations: true
   ignores_comments: true
+  warning: 130
+  error: 200
 
 type_body_length:
   warning: 300
@@ -52,21 +71,25 @@ type_body_length:
 
 file_length:
   warning: 500
-  error: 600
+  error: 700
 
-large_tuple: # warn user when using 3 values in tuple, give error if there are 4
-  warning: 3
-  error: 4
+large_tuple:
+  warning: 4
+  error: 6
 
 identifier_name:
   excluded:
     - id
+    - up
+  validates_start_with_lowercase: false
+  max_length: 50
 
-type_name:
-  min_length: 4 # only warning
-  max_length: # warning and error
-    warning: 30
-    error: 35
-  excluded: Ids
+nesting:
+  type_level:
+    warning: 4
 
-reporter: "xcode"
+number_separator:
+  minimum_length: 5
+
+generic_type_name:
+  max_length: 30
