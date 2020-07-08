@@ -27,8 +27,8 @@ _[[ A brief synopsis of this library ]]_.
 [[ Optionally, a longer description of this package. ]]
 
 
-[[ Header Screenshot ]]
-![](./Resources/Screenshots/header.png)
+<!-- [[ Header Screenshot ]] -->
+![MyLibrary Header Image](./Resources/Screenshots/header.png)
 
 
 
@@ -36,10 +36,6 @@ _[[ A brief synopsis of this library ]]_.
 
 - [x] Feature 1
 - [x] Feature 2
-- [x] Feature 3
-- [x] Feature 4
-- [x] Feature 5
-
 
 
 ## Requirements
@@ -58,7 +54,7 @@ _[[ A brief synopsis of this library ]]_.
 
 ### Xcode Projects
 
-Using Xcode, select `File` -> `Swift Packages` -> `Add Package Dependency` and enter https://github.com/CypherPoet/MyLibrary.
+Using Xcode, select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https://github.com/CypherPoet/MyLibrary`.
 
 
 ### Swift Package Manager
