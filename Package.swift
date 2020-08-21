@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "MyLibrary",
+        platforms: [
+        .iOS(SupportedPlatform.IOSVersion.v13),
+        .macOS(SupportedPlatform.MacOSVersion.v10_15),
+        .tvOS(SupportedPlatform.TVOSVersion.v13),
+        .watchOS(SupportedPlatform.WatchOSVersion.v6),
+    ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
@@ -21,11 +27,13 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "MyLibrary",
-            dependencies: []
+            dependencies: [],
+            path: "Sources/"
         ),
         .testTarget(
             name: "MyLibraryTests",
-            dependencies: ["MyLibrary"]
+            dependencies: ["MyLibrary"],
+            path: "Tests/"
         ),
     ]
 )
