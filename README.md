@@ -40,15 +40,14 @@ _[[ A brief synopsis of this library ]]._
 
 ## Installation
 
-
 ### Xcode Projects
 
-Using Xcode, select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https://github.com/CypherPoet/MyLibrary`.
+Select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https://github.com/CypherPoet/MyLibrary`.
 
 
-### Swift Package Manager
+### Swift Package Manager Projects
 
-`MyLibrary` can be used through the Swift Package Manager. You can add it as a dependency in your `Package.swift` file:
+You can add `MyLibrary` as a dependency in your `Package.swift` file:
 
 ```swift
 let package = Package(
@@ -59,6 +58,7 @@ let package = Package(
     //...
 )
 ```
+
 
 Then simply `import MyLibrary` wherever you’d like to use it.
 
