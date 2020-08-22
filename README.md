@@ -19,7 +19,7 @@
 
 <p align="center">
 
-_[[ A brief synopsis of this library ]]_.
+_[[ A brief synopsis of this library ]]._
 
 <p />
 
@@ -36,17 +36,6 @@ _[[ A brief synopsis of this library ]]_.
 
 - [x] Feature 1
 - [x] Feature 2
-
-
-## Requirements
-
-- iOS 14.0+
-- iPadOS 14.0+
-- macOS 11.0+
-- tvOS 14.0+
-- watchOS 7.0+
-- Xcode 12.0+ (for developing)
-
 
 
 ## Installation
@@ -92,6 +81,11 @@ Contributions to `MyLibrary` are most welcome. Check out some of the [issue temp
 
 
 ## Developing
+
+### Requirements
+
+- Xcode 12.0+ (for developing)
+
 
 ### Generating Documentation
 
