@@ -6,9 +6,9 @@ opt_in_rules:
   - number_separator
   - operator_usage_whitespace
   - toggle_bool
-  - convenience_type
   - empty_string
   - fallthrough
+  - convenience_type
   - legacy_random
   - multiline_function_chains
   - multiline_parameters
@@ -24,7 +24,6 @@ opt_in_rules:
 
 
 disabled_rules:
-- convenience_type
 - multiple_closures_with_trailing_closure
 - trailing_comma
 - type_name
