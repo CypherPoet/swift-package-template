@@ -1,5 +1,13 @@
 # MyLibrary
 
+<!-- Header Logo -->
+
+<p align="center">
+   <img width="600px" src="./Resources/Assets/banner-logo.png" alt="Banner Logo">
+</p>
+
+<!-- Badges -->
+
 <p>
     <img src="https://img.shields.io/badge/Swift-5.3-F06C33.svg" />
     <img src="https://img.shields.io/badge/iOS-13.0+-865EFC.svg" />
@@ -25,11 +33,6 @@ _[[ A brief synopsis of this library ]]._
 
 
 [[ Optionally, a longer description of this package. ]]
-
-
-<!-- [[ Header Screenshot ]] -->
-![MyLibrary Header Image](./Resources/Screenshots/header.png)
-
 
 
 ## Features
