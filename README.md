@@ -16,6 +16,7 @@
     <img src="https://img.shields.io/badge/tvOS-13.0+-41465B.svg" />
     <img src="https://img.shields.io/badge/watchOS-7.0+-1FD67A.svg" />
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+    <img src="https://github.com/CypherPoet/MyLibrary/workflows/Build%20&%20Test/badge.svg" />
     <a href="https://github.com/apple/swift-package-manager">
       <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" />
     </a>
