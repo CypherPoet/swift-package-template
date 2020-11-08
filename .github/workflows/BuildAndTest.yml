@@ -2,9 +2,9 @@ name: Build & Test
 
 on:
   push:
-    branches: [master]
+    branches: [REPLACE_WITH_DEFAULT_BRANCH_NAME]
   pull_request:
-    branches: [master]
+    branches: [REPLACE_WITH_DEFAULT_BRANCH_NAME]
 
 jobs:
   build:
