@@ -1,0 +1,24 @@
+name: PublishDocumentation
+
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [master]
+  release:
+    types: [published]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  deploy_docs:
+    # The type of runner that the job will run on
+    runs-on: macos-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - uses: actions/checkout@v1
+    - name: Publish Jazzy Docs
+      uses: Steven0351/publish-jazzy-docs@v1.1.2
+      with:
+        personal_access_token: ${{ secrets.ACCESS_TOKEN }}
+        config: .jazzy.yaml

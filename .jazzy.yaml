@@ -2,8 +2,9 @@ author: CypherPoet
 author_url: https://github.com/CypherPoet
 copyright: Copyright 2020 CypherPoet
 github_url: https://github.com/CypherPoet/MyLibrary
+theme: fullwidth
 swift_build_tool: spm
 clean: true
-output: ./Documentation
+output: ./docs
 swift_version: 5.3
 min_acl: internal
