@@ -1,5 +1,12 @@
 #!/bin/zsh
-​
+
+#
+# To Use this script, make sure you have llvm-cov available on your
+# system path.
+#
+# See: https://blog.bitrise.io/code-coverage-for-swift-package-manager-based-apps
+# ​
+
 BIN_PATH="$(swift build --show-bin-path)"
 XCTEST_PATH="$(find ${BIN_PATH} -name '*.xctest')"
 ​
