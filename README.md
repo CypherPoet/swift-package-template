@@ -68,7 +68,7 @@ From there, refer to it as a target dependency in any of your package's targets 
 ```swift
 targets: [
     .target(
-        name: "MyLibrary",
+        name: "YourLibrary",
         dependencies: [
           "MyLibrary",
         ],
