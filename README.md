@@ -57,7 +57,7 @@ You can add `MyLibrary` as a package dependency in your `Package.swift` file:
 let package = Package(
     //...
     dependencies: [
-        .package(url: "https://github.com/CypherPoet/MyLibrary", from: "0.1.0"),
+        .package(url: "https://github.com/CypherPoet/MyLibrary", .exact("0.0.1")),
     ],
     //...
 )
