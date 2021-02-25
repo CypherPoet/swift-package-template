@@ -63,7 +63,7 @@ let package = Package(
 )
 ```
 
-From there, refer to it as a "target dependency" in any of _your_ package's targets needing it.
+From there, refer to `MyLibrary` as a "target dependency" in any of _your_ package's targets that need it.
 
 ```swift
 targets: [
