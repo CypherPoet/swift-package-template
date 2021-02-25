@@ -8,8 +8,4 @@ final class MyLibraryTests: XCTestCase {
         // results.
         XCTAssertEqual(MyLibrary().text, "Hello, World!")
     }
-
-    static var allTests = [
-        ("testExample", testExample),
-    ]
 }
