@@ -10,7 +10,6 @@
 <!-- Badges -->
 
 <p>
-    <img src="https://img.shields.io/badge/Swift-5.4-F06C33.svg" />
     <img src="https://img.shields.io/badge/iOS-14.0+-865EFC.svg" />
     <img src="https://img.shields.io/badge/iPadOS-14.0+-F65EFC.svg" />
     <img src="https://img.shields.io/badge/macOS-11.0+-179AC8.svg" />
