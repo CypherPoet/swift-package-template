@@ -1,3 +1,4 @@
+module: MyLibrary
 author: CypherPoet
 author_url: https://github.com/CypherPoet
 copyright: Copyright 2021 CypherPoet
@@ -6,5 +7,4 @@ theme: fullwidth
 swift_build_tool: spm
 clean: true
 output: ./docs
-swift_version: 5.3
 min_acl: internal
