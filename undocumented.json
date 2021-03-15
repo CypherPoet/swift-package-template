@@ -1,0 +1,19 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/swift-package-template/swift-package-template/Sources/MyLibrary/MyLibrary.swift",
+      "line": 1,
+      "symbol": "MyLibrary",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/swift-package-template/swift-package-template/Sources/MyLibrary/MyLibrary.swift",
+      "line": 2,
+      "symbol": "MyLibrary.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/swift-package-template/swift-package-template"
+}
