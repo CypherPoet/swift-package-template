@@ -3,7 +3,7 @@
 <!-- Header Logo -->
 
 <div align="center">
-   <img width="600px" src="./Resources/Assets/banner-logo.png" alt="Banner Logo">
+   <img width="600px" src="./Extras/banner-logo.png" alt="Banner Logo">
 </div>
 
 
