@@ -38,7 +38,11 @@ let package = Package(
             dependencies: [
                 "MyLibrary",
             ],
-            path: "Tests/MyLibrary/"
+            path: "Tests/MyLibrary/",
+            exclude: [
+                "Data/README.md",
+                "Toolbox/README.md",
+            ]
         ),
     ]
 )
