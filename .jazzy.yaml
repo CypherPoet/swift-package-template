@@ -8,3 +8,13 @@ swift_build_tool: spm
 clean: true
 output: ./docs
 min_acl: internal
+
+
+#
+# 🔑 Make sure this matches the `swift-tools-version` in `Package.swift`.
+#
+# Being explicit about this will help ensure that Jazzy is building the project
+# the same way we expect it to be built anywhere else. It will also help surface
+# errors in CI systems related to using the right versions of Xcode/Swift.
+#
+swift_version: 5.4
