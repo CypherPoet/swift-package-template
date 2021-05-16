@@ -1,24 +1,29 @@
-name: PublishDocumentation
+name: Documentation
 
+on: [push]
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the main branch
-on:
-  push:
-    branches: [main]
-  release:
-    types: [published]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  deploy_docs:
-    # The type of runner that the job will run on
-    runs-on: macos-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Publish Jazzy Docs
-      uses: Steven0351/publish-jazzy-docs@v1.1.2
-      with:
-        personal_access_token: ${{ secrets.GH_PAGES_ACCESS_TOKEN }}
-        config: .jazzy.yaml
+      - uses: actions/checkout@v1
+
+      - name: Generate Documentation
+        uses: SwiftDocOrg/swift-doc@master
+        with:
+          inputs: "Sources/MyLibrary"
+          module-name: MyLibrary
+          format: html
+          output: "Documentation"
+
+      # Fix for https://github.com/SwiftDocOrg/swift-doc/issues/83#issuecomment-692299268
+      - name: Update Permissions
+        run: 'sudo chown --recursive $USER Documentation'
+
+      - name: Publish documentation to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          branch: gh-pages
+          folder: Documentation
+          single-commit: true
