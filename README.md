@@ -57,7 +57,10 @@ You can add `MyLibrary` as a package dependency in your `Package.swift` file:
 let package = Package(
     //...
     dependencies: [
-        .package(url: "https://github.com/CypherPoet/MyLibrary", .upToNextMinor(from: "0.1.0")),
+        .package(
+            url: "https://github.com/CypherPoet/MyLibrary",
+            .upToNextMinor(from: "0.1.0")
+        ),
     ],
     //...
 )
@@ -101,7 +104,7 @@ Contributions to `MyLibrary` are most welcome. Check out some of the [issue temp
 
 ### Requirements
 
-- Xcode 12.5+ (Recommended)
+- Xcode 13.0+ (Recommended)
 
 
 ### 📜 Generating Documentation
