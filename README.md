@@ -10,11 +10,12 @@
 <!-- Badges -->
 
 <p>
-    <img src="https://img.shields.io/badge/iOS-14.0+-865EFC.svg" />
-    <img src="https://img.shields.io/badge/iPadOS-14.0+-F65EFC.svg" />
-    <img src="https://img.shields.io/badge/macOS-11.0+-179AC8.svg" />
-    <img src="https://img.shields.io/badge/tvOS-14.0+-41465B.svg" />
-    <img src="https://img.shields.io/badge/watchOS-7.0+-1FD67A.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.5-F06C33.svg" />
+    <img src="https://img.shields.io/badge/iOS-15.0+-865EFC.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-15.0+-F65EFC.svg" />
+    <img src="https://img.shields.io/badge/macOS-12.0+-179AC8.svg" />
+    <img src="https://img.shields.io/badge/tvOS-15.0+-41465B.svg" />
+    <img src="https://img.shields.io/badge/watchOS-8.0+-1FD67A.svg" />
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     <img src="https://github.com/CypherPoet/MyLibrary/workflows/Build%20&%20Test/badge.svg" />
     <a href="https://github.com/apple/swift-package-manager">
