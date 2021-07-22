@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyLibrary",
+    name: "MyLibraryPackageName",
     platforms: [
         .iOS(.v15),
         .macOS(.v12),

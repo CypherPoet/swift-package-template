@@ -111,3 +111,11 @@ Documentation is built with [Xcode's DocC](https://developer.apple.com/documenta
 ## 🏷 License
 
 `MyLibrary` is available under the MIT license. See the [LICENSE file](./LICENSE) for more info.
+
+
+## Steps For Using This Template
+
+- [ ] Rename instances of `MyLibrary` to the library's product name.
+- [ ] Rename instances of `MyLibraryPackageName` to the library's Swift package name.
+- [ ] Update supported platforms as appropriate.
+- [ ] Delete this section.
