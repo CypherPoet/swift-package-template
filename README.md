@@ -1,4 +1,4 @@
-# MyLibrary
+# MyLibraryPackageName
 
 <!-- Header Logo -->
 
@@ -46,13 +46,14 @@ Select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https:/
 
 ### Swift Package Manager Projects
 
-You can add `MyLibrary` as a package dependency in your `Package.swift` file:
+You can add `MyLibraryPackageName` as a package dependency in your `Package.swift` file:
 
 ```swift
 let package = Package(
     //...
     dependencies: [
         .package(
+            name: "MyLibraryPackageName",
             url: "https://github.com/CypherPoet/MyLibrary",
             .upToNextMinor(from: "0.1.0")
         ),
@@ -61,7 +62,7 @@ let package = Package(
 )
 ```
 
-From there, refer to `MyLibrary` as a "target dependency" in any of _your_ package's targets that need it.
+<!-- From there, refer to `MyLibrary` as a "target dependency" in any of _your_ package's targets that need it.
 
 ```swift
 targets: [
@@ -69,6 +70,24 @@ targets: [
         name: "YourLibrary",
         dependencies: [
           "MyLibrary",
+        ],
+        ...
+    ),
+    ...
+]
+``` -->
+
+From there, refer to the `MyLibrary` "product" delivered by the `MyLibraryPackageName` "package" inside of any of your project's target dependencies:
+
+```swift
+targets: [
+    .target(
+        name: "YourLibrary",
+        dependencies: [
+            .product(
+                name: "MyLibrary",
+                package: "MyLibraryPackageName"
+            ),
         ],
         ...
     ),
@@ -91,7 +110,7 @@ Then simply `import MyLibrary` wherever you’d like to use it.
 
 ## Contributing
 
-Contributions to `MyLibrary` are most welcome. Check out some of the [issue templates](./.github/ISSUE_TEMPLATE/) for more info.
+Contributions to `MyLibraryPackageName` are most welcome. Check out some of the [issue templates](./.github/ISSUE_TEMPLATE/) for more info.
 
 
 
@@ -110,12 +129,13 @@ Documentation is built with [Xcode's DocC](https://developer.apple.com/documenta
 
 ## 🏷 License
 
-`MyLibrary` is available under the MIT license. See the [LICENSE file](./LICENSE) for more info.
+`MyLibraryPackageName` is available under the MIT license. See the [LICENSE file](./LICENSE) for more info.
 
 
 ## Steps For Using This Template
 
 - [ ] Rename instances of `MyLibrary` to the library's product name.
+- [ ] Rename files and directories with names of `MyLibrary` to the library's product name.
 - [ ] Rename instances of `MyLibraryPackageName` to the library's Swift package name.
 - [ ] Update supported platforms as appropriate.
 - [ ] Delete this section.
