@@ -1,4 +1,4 @@
-# ``MyLibrary``
+# ``MyLibraryName``
 
 
 ## Overview

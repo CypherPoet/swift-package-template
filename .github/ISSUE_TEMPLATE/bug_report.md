@@ -30,8 +30,8 @@ If applicable, add screenshots and/or screen recordings to help explain the prob
 
 **Desktop (please complete the following information):**
 
- - Device: [e.g. MacBook Air (13-inch, Early 2015)]
- - OS: [e.g. macOS Mojave 10.14.5]
+ - Device: [e.g. MacBook Pro (16-inch, Late 2021)]
+ - OS: [e.g. macOS Monterey 12.2.2]
 
 
 **Additional context**
