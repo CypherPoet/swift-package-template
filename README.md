@@ -144,5 +144,5 @@ For now, the best way to view the docs is to open the project in Xcode and run t
 - [ ] Rename instances of `MyLibraryName` to the library's product name.
 - [ ] Rename files and directories with names of `MyLibraryName` to the library's product name.
 - [ ] Rename instances of `MyPackageName` to the library's Swift package name.
-- [ ] Update supported platforms as appropriate.
+- [ ] Update supported platforms in `Package.swift` as appropriate.
 - [ ] Delete this section.
