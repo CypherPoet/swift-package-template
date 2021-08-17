@@ -31,7 +31,10 @@ let package = Package(
             name: "MyLibraryName",
             dependencies: [
             ],
-            path: "Sources/MyLibraryName/"
+            path: "Sources/MyLibraryName/",
+            resources: [
+                .process("Resources"),
+            ]
         ),
         .testTarget(
             name: "MyLibraryNameTests",
@@ -40,8 +43,11 @@ let package = Package(
             ],
             path: "Tests/MyLibraryName/",
             exclude: [
-                "Data/README.md",
+                "Resources/README.md",
                 "Toolbox/README.md",
+            ],
+            resources: [
+                .process("Resources"),
             ]
         ),
     ]
