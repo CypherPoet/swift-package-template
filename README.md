@@ -52,19 +52,17 @@ let package = Package(
         .package(
             name: "MyPackageName",
             url: "https://github.com/CypherPoet/MyLibraryName",
-            .upToNextMinor(from: "0.1.0")
+            .exact("0.0.1")
         ),
     ],
     //...
 )
 ```
 
-<!--
 
-🔑 UNCOMMENT IF REPO NAME MATCHES THE LIBRARY NAME 👇
+<!-- 🔑 UNCOMMENT IF REPO NAME MATCHES THE LIBRARY NAME 👇 -->
 
-From there, refer to `MyLibraryName` as a "target dependency" in any of _your_ package's targets that need it.
-
+<!-- From there, refer to `MyLibraryName` as a "target dependency" in any of _your_ package's targets that need it.
 
 ```swift
 targets: [
@@ -77,8 +75,7 @@ targets: [
     ),
     ...
 ]
-```
--->
+``` -->
 
 
 <!-- 🔑 UNCOMMENT IF REPO NAME DOESN'T MATCH THE LIBRARY NAME 👇 -->
