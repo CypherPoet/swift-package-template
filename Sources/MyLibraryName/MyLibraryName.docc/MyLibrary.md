@@ -1,5 +1,6 @@
 # ``MyLibraryName``
 
+_[ A brief synopsis of this library ]._
 
 ## Overview
 
