@@ -60,7 +60,7 @@ let package = Package(
 ```
 
 
-<!-- 🔑 UNCOMMENT IF REPO NAME MATCHES THE LIBRARY NAME 👇 -->
+<!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME MATCHES THE LIBRARY NAME 👇 -->
 
 <!-- From there, refer to `MyLibraryName` as a "target dependency" in any of _your_ package's targets that need it.
 
@@ -77,8 +77,7 @@ targets: [
 ]
 ``` -->
 
-
-<!-- 🔑 UNCOMMENT IF REPO NAME DOESN'T MATCH THE LIBRARY NAME 👇 -->
+<!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME DOESN'T MATCH THE LIBRARY NAME 👇 -->
 
 From there, refer to the `MyLibraryName` "product" delivered by the `MyPackageName` "package" inside of any of your project's target dependencies:
 
@@ -97,6 +96,8 @@ targets: [
     ...
 ]
 ```
+
+<!-- Proceed from above choice accordingly (and delete this comment) -->
 
 Then simply `import MyLibraryName` wherever you’d like to use it.
 
