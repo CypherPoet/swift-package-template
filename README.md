@@ -102,6 +102,13 @@ targets: [
 Then simply `import MyLibraryName` wherever you’d like to use it.
 
 
+**📝 Note:** To make the library available to your entire project, you could also leverage the [functionality of the `@_exported` keyword](https://forums.swift.org/t/package-manager-exported-dependencies/11615) by placing the following line somewhere at the top level of your project:
+
+```swift
+@_exported import MyLibraryName
+```
+
+
 ## Usage
 
 
