@@ -1,1 +1,3 @@
-Place files here related to packages resources (Examples: image assets, color assets, localized strings files).
+# `MyLibraryName` Resources
+
+Place files related to package resources (examples: image assets, color assets, localized strings files) under this directory.

@@ -60,9 +60,11 @@ let package = Package(
 ```
 
 
-<!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME MATCHES THE LIBRARY NAME 👇 -->
+<!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME MATCHES THE PACKAGE NAME 👇 -->
 
-<!-- From there, refer to `MyLibraryName` as a "target dependency" in any of _your_ package's targets that need it.
+<!--
+
+From there, refer to `MyLibraryName` as a "target dependency" in any of _your_ package's targets that need it.
 
 ```swift
 targets: [
@@ -75,9 +77,12 @@ targets: [
     ),
     ...
 ]
-``` -->
+```
 
-<!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME DOESN'T MATCH THE LIBRARY NAME 👇 -->
+-->
+
+
+<!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME DOESN'T MATCH THE PACKAGE NAME 👇 -->
 
 From there, refer to the `MyLibraryName` "product" delivered by the `MyPackageName` "package" inside of any of your project's target dependencies:
 

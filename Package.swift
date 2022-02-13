@@ -32,6 +32,9 @@ let package = Package(
             dependencies: [
             ],
             path: "Sources/MyLibraryName/",
+            exclude: [
+                "Resources/README.md",
+            ],
             resources: [
                 .process("Resources"),
             ]

@@ -112,5 +112,11 @@ iOSInjectionProject/
 # End of https://www.gitignore.io/api/macos,swift
 
 
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
 Private/
