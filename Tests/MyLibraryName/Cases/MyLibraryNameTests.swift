@@ -1,5 +1,5 @@
 import XCTest
-@testable import MyLibraryName
+import MyLibraryName
 
 final class MyLibraryNameTests: XCTestCase {
     func testExample() throws {
