@@ -2,9 +2,13 @@
 
 <!-- Header Logo -->
 
-<!-- <div align="center">
-   <img width="600px" src="./Extras/banner-logo.png" alt="Banner Logo">
-</div> -->
+<!--
+<div align="center">
+   <img width="600px" src="./Sources/MyLibraryName/MyLibraryName.docc/Resources/Images/banner-logo.png" alt="Banner Logo">
+</div>
+
+ -->
+
 
 <!-- Badges -->
 
