@@ -121,10 +121,6 @@ Then simply `import MyLibraryName` wherever you’d like to use it.
 
 - World Domination
 
-## Contributing
-
-Contributions to `MyPackageName` are most welcome. Check out some of the [issue templates](./.github/ISSUE_TEMPLATE/) for more info.
-
 ## 💻 Developing
 
 ### Requirements
