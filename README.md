@@ -50,7 +50,6 @@ let package = Package(
     //...
     dependencies: [
         .package(
-            name: "MyPackageName",
             url: "https://github.com/CypherPoet/MyLibraryName",
             .exact("0.0.1")
         ),
@@ -127,11 +126,11 @@ Then simply `import MyLibraryName` wherever you’d like to use it.
 
 - Xcode 13.0+
 
-### 📜 Creating & Building Documentation
+Documentation is built with [DocC](https://developer.apple.com/documentation/docc) (see [Apple's guidance for more details about creating DocC content](https://developer.apple.com/documentation/docc/api-reference-syntax)).
 
-Documentation is built with [Xcode's DocC](https://developer.apple.com/documentation/docc). See [Apple's guidance on how to build, run, and create DocC content](https://developer.apple.com/documentation/docc/api-reference-syntax).
+To build and preview the documentation output, follow the instructions for the [here](https://github.com/apple/swift-docc-plugin#previewing-documentation) for the `Swift-DocC Plugin `.
 
-For now, the best way to view the docs is to open the project in Xcode and run the `Build Documentation` command. At some point in the future, I'm hoping to leverage the tooling the develops for generating/hosting DocC documentation. (Please feel free to let me know if you have any ideas or tooling recommendations around this 🙂).
+If you're using VSCode, there's also a [task configuration](./.vscode/tasks.json) that will handle this directly from the editor 💪
 
 ## 🏷 License
 

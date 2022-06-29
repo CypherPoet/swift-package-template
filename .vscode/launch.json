@@ -3,12 +3,12 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Test MyPackageName",
+      "name": "Test MyLibraryName",
       "program": "/Applications/Xcode.app/Contents/Developer/usr/bin/xctest",
-      "args": [
-        ".build/debug/MyPackageNamePackageTests.xctest"
-      ],
-      "cwd": "${workspaceFolder:swift-package-template}",
+      "args": [".build/debug/MyLibraryNamePackageTests.xctest"],
+      "cwd": "${workspaceFolder:MyLibraryName}",
+
+      // https://github.com/swift-server/vscode-swift#automatic-task-creation
       "preLaunchTask": "swift: Build All"
     }
   ]

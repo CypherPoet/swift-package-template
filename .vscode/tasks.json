@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // https://github.com/apple/swift-docc-plugin#previewing-documentation
+    {
+      "type": "swift",
+      "command": "swift",
+      "args": [
+        "package",
+        "--disable-sandbox",
+        "preview-documentation",
+        "--target",
+        "MyLibraryName"
+      ],
+      "cwd": "${workspaceFolder:MyLibraryName}",
+      "problemMatcher": ["$swiftc"],
+      "label": "swift: Preview Documentation for `MyLibraryName`",
+      "detail": "Preview DocC Documentation for the `MyLibraryName` target"
+    }
+  ]
+}
