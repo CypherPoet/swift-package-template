@@ -75,9 +75,13 @@ Package.pins
 Package.resolved
 .build/
 /*.xcodeproj
+.swiftpm/config/registries.json
+
 
 # Add this line if you want to avoid checking in Xcode SPM integration.
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+
 
 ################
 # CocoaPods
