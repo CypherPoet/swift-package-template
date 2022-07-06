@@ -12,13 +12,18 @@
 
 <!-- Badges -->
 
+<!-- Badges -->
+
 <p>
-    <img src="https://img.shields.io/badge/Swift-5.7-F06C33.svg" />
-    <img src="https://img.shields.io/badge/iOS-16.0+-865EFC.svg" />
-    <img src="https://img.shields.io/badge/iPadOS-16.0+-F65EFC.svg" />
-    <img src="https://img.shields.io/badge/macOS-13.0+-179AC8.svg" />
-    <img src="https://img.shields.io/badge/tvOS-16.0+-41465B.svg" />
-    <img src="https://img.shields.io/badge/watchOS-9.0+-1FD67A.svg" />
+
+  [![Swift Version Compatibility](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FCypherPoet%2FMyLibraryName%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/CypherPoet/MyLibraryName)
+
+  [![Swift Platform Compatibility](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FCypherPoet%2FMyLibraryName%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/CypherPoet/MyLibraryName)
+
+</p>
+
+
+<p>
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     <img src="https://github.com/CypherPoet/MyLibraryName/workflows/Build%20&%20Test/badge.svg" />
     <a href="https://github.com/apple/swift-package-manager">
@@ -29,11 +34,13 @@
     </a>
 </p>
 
+
 <p align="center">
 
 _[ A brief synopsis of this library ]._
 
-<p />
+</p>
+
 
 ## Installation
 
@@ -128,7 +135,7 @@ Then simply `import MyLibraryName` wherever you’d like to use it.
 
 Documentation is built with [DocC](https://developer.apple.com/documentation/docc) (see [Apple's guidance for more details about creating DocC content](https://developer.apple.com/documentation/docc/api-reference-syntax)).
 
-To build and preview the documentation output, follow the instructions for the [here](https://github.com/apple/swift-docc-plugin#previewing-documentation) for the `Swift-DocC Plugin `.
+To build and preview the documentation output, follow the instructions for the [here](https://github.com/apple/swift-docc-plugin#previewing-documentation) for the `Swift-DocC Plugin`.
 
 If you're using VSCode, there's also a [task configuration](./.vscode/tasks.json) that will handle this directly from the editor 💪
 
