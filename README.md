@@ -58,7 +58,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/CypherPoet/MyLibraryName",
-            .exact("0.0.1")
+            exact: "0.0.1"
         ),
     ],
     //...
