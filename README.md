@@ -129,7 +129,9 @@ Then simply `import MyLibraryName` wherever you’d like to use it.
 
 ### Requirements
 
-- Xcode 13.0+
+- Xcode 14.0+
+
+### ✍️ Building The Documentation
 
 Documentation is built with [DocC](https://developer.apple.com/documentation/docc) (see [Apple's guidance for more details about creating DocC content](https://developer.apple.com/documentation/docc/api-reference-syntax)).
 
