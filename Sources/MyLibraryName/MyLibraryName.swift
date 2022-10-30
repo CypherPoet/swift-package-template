@@ -1,5 +1,5 @@
 public struct MyLibraryName {
-    public private(set) var text = "Hello, World!"
+    public private(set) var text: String = "Hello, World!"
 
     public init() {
     }
