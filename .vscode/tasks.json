@@ -3,7 +3,7 @@
   "tasks": [
     // https://github.com/apple/swift-docc-plugin#previewing-documentation
     {
-      "type": "swift",
+      "type": "shell",
       "command": "swift",
       "args": [
         "package",
@@ -12,7 +12,9 @@
         "--target",
         "MyLibraryName"
       ],
-      "cwd": "${workspaceFolder:MyLibraryName}",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": ["$swiftc"],
       "label": "swift: Preview Documentation for `MyLibraryName`",
       "detail": "Preview DocC Documentation for the `MyLibraryName` target"
